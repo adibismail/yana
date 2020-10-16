@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h6{
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+header {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px auto;
+}
+
+#topBox {
+  background-color: #EAA5A5;
+  background-position: top center;
+  height: 20px;
+}
+
+img.logo {
+  padding-top: 10px;
+  margin-left: 0;
+}
+
+/* socials */
+#socials {
+  padding-right: 20px auto;
+  display: flex;
+  margin: 0 20px;
+  
+}
+
+    .fa {
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #000000;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #000000;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #000000;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #000000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #000000;
+        color: white;
+      }
+/* End Socials */
+
+/* Navigations */
+#nav-links{
+  padding: 10px;
+}
+
+.nav_links {
+  display: inline-block;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin-left: 0;
+  padding-top: 20px;
+
+}
+
+li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #black;
+  text-decoration: none;
+  
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li:nth-child(1){
+  padding: 0 20px 0 0;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #EAA5A5;
+}
+
+#search input {
+  border-style: solid;
+  display: inline-flex;
+  height: 50px; 
+}
+#search input[type=text] {
+  float: right;
+  padding: 3px;
+  border: none;
+  margin-top: 10px;
+  margin-right: 0px;
+  font-size: 17px;
+}
+#search button {
+  float: right;
+  padding: 6px 6px;
+  margin-top: 5px;
+  margin-right: 10px;
+  background: #ddd;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#search button:hover {
+  background: #ccc;
+}
+/* End Navigations */
+
+/* Body */
+.feature {
+  display: block;
+  margin: 10px auto;
+  width: 1200px;
+  border-top: 5px #EAA5A5;
+
+}
+
+#feature-text h1 {
+  text-align: left;
+  color: black;
+  font-family: "Montserrat", sans-serif;;
+  font-size: 40px;
+  padding-left: 30px;
+  /*background-color: #EAA5A5;*/
+  background-repeat: no-repeat;
+  background-size: 30% 20%;
+  /*background-position: center;*/
+}
+
+
+#content img {
+  padding: 20px;
+}
+
+#text-holder {
+  display: block;
+  width: 70%;
+  height: auto;
+  border-left: 5px solid;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-bottom: 30px;
+  background-color: #ddd;
+}
+
+#text-holder:hover {
+  background-color: #EAA5A5;
+  color: black;
+  
+}
+
+.content-column {
+  float: left;
+  position: top;
+  padding: 10px;
+  height: 300px;
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*#feature-text2 {
+  text-align: left;
+  color: black;
+  font-family: "Montserrat", sans-serif;;
+  font-size: 40px;
+  padding-left: 30px;
+  background-color: #EAA5A5;
+  background-size: 1200px 3px;
+  background-position: center;
+}
+*/
+
+/* End Body */
+
+
+
+/*start sini*/
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+/*habis sini*/
